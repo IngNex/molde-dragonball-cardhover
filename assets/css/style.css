@@ -134,24 +134,32 @@ body{
 }
 
 /*  Responsive  */
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 600px) {
 	.lista {
 		grid-template: auto / repeat(2, 1fr);
 	}
     .card img{
-        height: 20vw;
+        height: 160px;
     }
     .card:hover img{
-        height: 25vw;
+        height: 180px;
     }
     .card .content{
-        top: 20vw;
+        top: 120px;
     }
-
 }
 
 @media screen and (min-width: 1000px) {
 	.lista {
 		grid-template: auto / repeat(3, 1fr);
 	}
+    .card img{
+        height: 200px;
+    }
+    .card:hover img{
+        height: 250px;
+    }
+    .card .content{
+        top: 200px;
+    }
 }
