@@ -82,18 +82,17 @@ body{
 .card img{
     position: absolute;
     top: -10%;/*10px;*/
-    height: 200px;/*280px;*/
+    height: 270px;/*280px;*/
     left: 50%;
 	transform: translateX(-50%);
     border-radius: 50%;
-    border: 1px solid #fff ;
-    box-shadow: 0 0 1rem 0 #fff;
+    /*border: 1px solid #fff ;
+    box-shadow: 0 0 1rem 0 #fff;*/
     transition: 0.5s;
 }
 
 .card:hover img{
-    height: 250px;
-    
+    height: 200px;
 }
 
 /*Contenido*/
