@@ -121,11 +121,14 @@ body{
 .card .content p{
     color: #fff;
     text-align: center;
+    font-size: 0.8em;
 }
 .card .content a{
     position: relative;
-    display: inline-block;
+    display: flex;
     color: #111;
+    font-size: 0.8em;
+    width: 50%;
     text-decoration: none;
     padding: 10px 20px;
     background: #ffd4d4;
@@ -134,7 +137,7 @@ body{
 }
 
 /*  Responsive  */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
 	.lista {
 		grid-template: auto / repeat(2, 1fr);
 	}
