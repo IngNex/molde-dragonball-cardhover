@@ -166,3 +166,151 @@ body{
         top: 200px;
     }*/
 }
+
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*Verificar tamaño tablet
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 2em;
+    background-color: #330000;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='398' height='398' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23740000' stroke-width='1.9'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23950000'%3E%3Ccircle cx='769' cy='229' r='8'/%3E%3Ccircle cx='539' cy='269' r='8'/%3E%3Ccircle cx='603' cy='493' r='8'/%3E%3Ccircle cx='731' cy='737' r='8'/%3E%3Ccircle cx='520' cy='660' r='8'/%3E%3Ccircle cx='309' cy='538' r='8'/%3E%3Ccircle cx='295' cy='764' r='8'/%3E%3Ccircle cx='40' cy='599' r='8'/%3E%3Ccircle cx='102' cy='382' r='8'/%3E%3Ccircle cx='127' cy='80' r='8'/%3E%3Ccircle cx='370' cy='105' r='8'/%3E%3Ccircle cx='578' cy='42' r='8'/%3E%3Ccircle cx='237' cy='261' r='8'/%3E%3Ccircle cx='390' cy='382' r='8'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Contenedor 
+.container{
+    width: 90%;
+	max-width: 120rem;
+	padding: 0 2rem;
+	margin: 0 auto;
+}
+
+/* Lista  
+.lista{
+    width: 100%;
+	display: grid;
+	grid-template: auto / 1fr;
+	gap: 4rem;
+}
+
+/*  Card 
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(254,255,0,1) 100%);
+    /*background: linear-gradient(135deg, #d41e31, #491f8f);
+}
+
+/* Titulo 
+.card .title{
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    text-align: center;
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+    justify-content: left;
+}
+.card:hover .title{
+    opacity: 0;
+    visibility: hidden;
+}
+.card .title h1{
+    font-size: 2.5em;
+}
+.card .title a{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    width: 80%;
+    padding: 10px 20px;
+    background: #000;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/*   Imagen   
+.card img{
+    position: absolute;
+    top: -10%;
+    left: 10px;
+    height: 280px;
+    transition: 0.5s;
+    border-radius: 50%;
+    border: 1px solid #fff ;
+}
+
+.card:hover img{
+    left: 50px;
+    height: 200px;
+}
+
+/*Contenido
+.card .content{
+    position: relative;
+    width: 100%;
+    padding: 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    align-items: flex-end;
+    top: 20%;
+    text-align: center;
+}
+.card:hover .content{
+    opacity: 1;
+    visibility: visible;
+    align-items: flex-end;
+}
+.card .content h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-align: center;
+}
+.card .content p{
+    color: #fff;
+    text-align: center;
+}
+.card .content a{
+    position: relative;
+    display: inline-block;
+    color: #111;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #ffd4d4;
+    border-radius: 10px;
+    margin: 10px 5px 5px;
+}
+
+/*  Responsive  
+@media screen and (min-width: 600px) {
+	.lista {
+		grid-template: auto / repeat(2, 1fr);
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.lista {
+		grid-template: auto / repeat(3, 1fr);
+	}
+}
+
+*/
