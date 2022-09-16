@@ -139,14 +139,15 @@ body{
 		grid-template: auto / repeat(2, 1fr);
 	}
     .card img{
-        height: 160px;
+        height: 20vw;
     }
     .card:hover img{
-        height: 180px;
+        height: 25vw;
     }
     .card .content{
-        top: 130px;
+        top: 20vw;
     }
+
 }
 
 @media screen and (min-width: 1000px) {
