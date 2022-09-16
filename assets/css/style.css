@@ -125,12 +125,12 @@ body{
 }
 .card .content a{
     position: relative;
-    display: flex;
+    display: inline-block;
     color: #111;
     font-size: 0.8em;
-    width: 50%;
+    width: auto;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     background: #ffd4d4;
     border-radius: 10px;
     margin: 10px 5px 5px;
